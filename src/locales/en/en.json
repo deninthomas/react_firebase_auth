@@ -1,0 +1,22 @@
+{
+  "loginPage": {
+    "title": "Login Page",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Log In",
+    "noAccountMessage": "Didn't have an account:",
+    "signUpButton": "Sign Up"
+  },
+
+
+
+
+  "signUpPage": {
+    "title": "Sign Up",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "signUpButton": "Sign Up",
+    "haveAccountMessage": "Already have an account:",
+    "signInButton": "Sign In"
+  }
+}

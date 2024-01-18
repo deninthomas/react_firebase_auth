@@ -1,0 +1,23 @@
+
+{
+  "loginPage": {
+    "title": "Page de connexion",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "loginButton": "Se connecter",
+    "noAccountMessage": "Vous n'avez pas de compte :",
+    "signUpButton": "S'inscrire"
+  },
+
+
+
+
+  "signUpPage": {
+    "title": "Inscription",
+    "emailPlaceholder": "E-mail",
+    "passwordPlaceholder": "Mot de passe",
+    "signUpButton": "S'inscrire",
+    "haveAccountMessage": "Vous avez déjà un compte :",
+    "signInButton": "Se connecter"
+  }
+}
