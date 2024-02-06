@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Flex, Heading} from "@chakra-ui/react";
+import {  Flex, Heading} from "@chakra-ui/react";
+import AuthDetails from "./AuthDetails";
 
 const Home = () => {
   return (
@@ -13,12 +14,13 @@ const Home = () => {
       <Heading mb={4}>This Is The Homepage</Heading>
       <Flex w="100%" justifyContent="flex-start" alignItems="center">
        
-        <Button colorScheme="teal"  variant="ghost"
+        {/* <Button colorScheme="teal"  variant="ghost"
             position="fixed"
             top={4}
             left={4} >
           HOME
-        </Button>
+        </Button> */}
+        <AuthDetails/>
       </Flex>
     </Flex>
   );
