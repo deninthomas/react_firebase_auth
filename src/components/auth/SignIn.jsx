@@ -13,6 +13,7 @@ import { auth } from "../../fireBase";
 import { Link } from "react-router-dom";
 import {useTranslation} from 'react-i18next';
 import TranslationButton from './TranslationButton';
+import AuthDetails from "./AuthDetails";
 
 
 
@@ -79,6 +80,7 @@ const SignIn = () => {
       </form>
     </div>
     <TranslationButton/>
+    <AuthDetails/>
     </>
   );
 };
