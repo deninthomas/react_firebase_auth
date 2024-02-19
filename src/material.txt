@@ -1,0 +1,87 @@
+Vritual Dom
+
+A copy of the orginal DOm which is a tree strature where elements are orginally render the Vritual DOm is createted to manuplate the 
+orginal with out affecting  the real dom we can make the change in the Vritual DOm and manuplate data and change in actual DOM with 
+easy
+
+
+
+
+Arrow Function
+
+Syntax
+
+() =>{
+
+} // this is a name less arrow Function witch  return any e which is assigin to
+
+
+Long Step
+
+ const [name, setName]  = usestate("");  // usetate from react is used to give the a current value and an updated value 
+
+ we can use this to update the value of name 
+
+ shot {(e) => (e.target.value)} // jsx tag to handle form or input event base Syntax
+
+ or you can call it in a Function
+
+ example :
+  const [name , setName] = usestate("");
+
+  const handleNameChange = (e) =>{
+    setName(e.target.value);
+  } 
+  When ever in Input or Submit in form a call is made {handleNameChange} this code is excuted and the change in the value is 
+  given in the console as the user input in the input box
+
+  The useState is used to change the current value and to new value it has 2 parts as it currentValue and NewValue 
+
+  We can also write this code to reduse the code length on the OnSubmit 
+
+  Syntax 
+
+      const [name ,setName] = useState("");
+
+      OnSubmit = {(e)=>setName(e.target.value)} // this will also give the same output as the above code but less code and more readeable 
+
+UseEffect 
+
+The useEffect Function is used as to trigger  some changes in the dom like an API or a timer  or something else to be done one time in the code block or page
+the use UseEffect can be used in various cases 
+when a component mounts or when someting change in the application State
+Syntax 
+      useEffect(() => {
+        Side effect code here 
+           return () => {
+           Cleanup code here
+  };
+}, [dependencies]);
+
+      Side effect is when the tigger or function has to be excuted when a time or case is given or seen 
+      Cleanup This is the cleanup function that can be used to clean up any resources created by the effect. 
+      It's executed when the component unmounts or when the dependencies change and the effect reruns.
+      Dependencies are an optional array to be used if ther is any change in the state where the side effects has to be triggered
+      again
+
+ Custom Hooks 
+    CustomHooks in react are baseicly some fuction which helps up to reuse the component in other places
+
+
+    Syntax
+       we can create custom hooks according to the needs
+       useInput is created by me to mange input filed 
+
+       function useInput(initialValue) {
+   
+  const [state, setState] = useState(initialValue);
+
+       }
+       i can call it in a component like
+
+        function input(){
+          const [customInput , useCustomInput] = useInput(initialValue);
+        }
+
+
+{?////200C861CFFA0//?} - Login Cridentials 
