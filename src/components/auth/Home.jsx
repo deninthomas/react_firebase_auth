@@ -14,12 +14,14 @@ const Home = () => {
       <Heading mb={4}>This Is The Homepage</Heading>
       <Flex w="100%" justifyContent="flex-start" alignItems="center">
        
+
+       
         {/* <Button colorScheme="teal"  variant="ghost"
             position="fixed"
             top={4}
-            left={4} >
+            left={4} > jsx comment 
           HOME
-        </Button> */}
+        </Button> */} 
         <AuthDetails/>
       </Flex>
     </Flex>

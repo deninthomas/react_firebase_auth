@@ -33,6 +33,8 @@ const SignIn = () => {
         console.log("Eroor", eroor.message);
       });
   };
+
+  // comented 
   // const navigate = useNavigate();
   // const navigateHome = () => {
   //   navigate("/Home");
